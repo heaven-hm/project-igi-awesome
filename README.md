@@ -76,9 +76,16 @@ Directly playable browser-based implementations and web ports:
 * **Author:** [@ShahriyarB](https://github.com/ShahriyarB)
 * **Description:** Enhanced browser-based version powered by the OpenIGI engine with modern visual improvements and web rendering.
 
+
 ### [Project I.G.I. Web (Vanilla Version)](https://project-igi.pages.dev/)
-* **Website:** [https://project-igi.pages.dev/](https://project-igi.pages.dev/)
+* **Website:** [https://project-igi.pages.dev](https://project-igi.pages.dev/)
 * **Description:** Faithful, vanilla web browser port running original Project I.G.I. assets and gameplay directly in the browser.
+
+
+### [Project I.G.I. Web (ReComp)](https://github.com/sagarinfosec/project-igi-browser)
+* **Website:** [project-igi-browser](https://igi.sagarinfosec.site)
+* **Description:** Faithful, vanilla web browser port running original Project I.G.I. assets and gameplay with source code recompiled.
+
 
 ---
 
