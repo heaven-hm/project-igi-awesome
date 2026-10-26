@@ -88,6 +88,17 @@ More reverse engineering projects, tools, file format specifications, and resear
 
 ---
 
+## 📬 Submitting to Recompedia
+
+### What to send
+Send the repository URL and, if the README does not make it clear, which game version or region it targets. Corrections to existing rows are welcome in the same way; include the line in the repository that shows the change.
+
+**Email:** [submit@recompedia.com](mailto:submit@recompedia.com)
+
+> Recompedia does not host or link to ROMs, BIOS files or game assets. Every project listed requires a copy of the original game owned by the player.
+
+---
+
 ## ⚖️ License & Disclaimer
 
 * This repository is licensed under the [MIT License](LICENSE).
