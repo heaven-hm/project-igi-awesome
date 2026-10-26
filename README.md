@@ -1,6 +1,6 @@
 # Project I.G.I. Reverse Engineering & Source Ports
 
-A curated directory of open-source reverse engineering, decompilation, static recompilation, and engine reconstruction projects for the **Project I.G.I.** series developed by Innerloop Studios.
+A curated directory of open-source reverse engineering, decompilation, static recompilation, engine reconstruction, and browser playable projects for the **Project I.G.I.** series developed by Innerloop Studios.
 
 > **Note:** This repository hosts no game code, binaries, or copyrighted assets. All listed projects require a legally owned retail installation of the original games.
 
@@ -43,6 +43,20 @@ A curated directory of open-source reverse engineering, decompilation, static re
 * **Author:** [@ShahriyarB](https://github.com/ShahriyarB)
 * **Approach:** Clean-room reimplementation of Innerloop Studios' engine in C# on .NET 10.
 * **Description:** An open-source engine for *Project I.G.I.: I'm Going In* (2000) and *I.G.I. 2: Covert Strike* (2003). Runs the original games from your own retail installation. The original missions, scripts, and AI play as they did in 2000, with a modern renderer, launcher, and modding platform built around them.
+
+---
+
+## 🌍 Project I.G.I. in the Browser
+
+Directly playable browser-based implementations and web ports:
+
+### [OpenIGI Web (Enhanced Version)](https://openigi.com/)
+* **Website:** [https://openigi.com/](https://openigi.com/)
+* **Description:** Enhanced browser-based version powered by the OpenIGI engine with modern visual improvements and web rendering.
+
+### [Project I.G.I. Web (Vanilla Version)](https://project-igi.pages.dev/)
+* **Website:** [https://project-igi.pages.dev/](https://project-igi.pages.dev/)
+* **Description:** Faithful, vanilla web browser port running original Project I.G.I. assets and gameplay directly in the browser.
 
 ---
 
