@@ -1,6 +1,6 @@
 # Project I.G.I. Reverse Engineering & Source Ports
 
-A curated directory of open-source reverse engineering, decompilation, static recompilation, engine reconstruction, and browser playable projects for the **Project I.G.I.** series developed by Innerloop Studios.
+A curated directory of open-source reverse engineering, decompilation, static recompilation, engine reconstruction, console ports, and browser playable projects for the **Project I.G.I.** series developed by Innerloop Studios.
 
 > **Note:** This repository hosts no game code, binaries, or copyrighted assets. All listed projects require a legally owned retail installation of the original games.
 
@@ -36,6 +36,24 @@ A curated directory of open-source reverse engineering, decompilation, static re
 * **Author:** [@ShahriyarB](https://github.com/ShahriyarB)
 * **Approach:** Reverse engineering and decompilation project targeting the *I.G.I.-2: Covert Strike* executable.
 * **Features:** Disassembly analysis, structure recovery, and engine subsystems documentation.
+
+---
+
+## 🕹️ Console & Handheld Ports
+
+### [IGI Vita (Native PlayStation Vita Port)](https://github.com/HenryKun55/igi-vita)
+* **Repository:** [https://github.com/HenryKun55/igi-vita](https://github.com/HenryKun55/igi-vita)
+* **Author:** [@HenryKun55](https://github.com/HenryKun55)
+* **Target Game:** *Project I.G.I.: I'm Going In* (2000)
+* **Platform:** PlayStation Vita / PlayStation TV
+* **Approach:** Native source port built from static recompilation with Direct3D 7, DirectSound, and DirectInput reimplemented on top of vitaGL and native PS Vita APIs. Performance-critical loops (terrain, meshes, skinning, culling) rewritten for the Vita's ARM CPU.
+* **Features:** 
+  - 100% playable native experience (menus, all 14 missions, saves, config).
+  - Locked 30 FPS gameplay (game's native cap) with automated 444 MHz CPU clock.
+  - Native sound, music, FMV cutscenes, and in-engine cutscenes.
+  - Full Vita controls: dual analog sticks, front touchscreen aiming, rear touchpad scope zoom, and customizable button mappings.
+  - 16:9 widescreen or original 4:3 aspect ratio options.
+  - Built-in updater and performance overlay support.
 
 ---
 
