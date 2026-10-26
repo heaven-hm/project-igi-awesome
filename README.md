@@ -10,17 +10,20 @@ A curated directory of open-source reverse engineering, decompilation, static re
 
 ### [IGI Recomp (Static Recompilation)](https://github.com/HenryKun55/igi-recomp)
 * **Repository:** [https://github.com/HenryKun55/igi-recomp](https://github.com/HenryKun55/igi-recomp)
+* **Author:** [@HenryKun55](https://github.com/HenryKun55)
 * **Approach:** Ahead-of-Time (AOT) static binary recompilation of retail `IGI.exe` to portable C.
 * **Platforms:** macOS (native Apple Silicon ARM64), PlayStation Vita, and PC.
 * **Features:** Full 100% playable game logic, 60+ FPS uncapped framerates, widescreen support, Direct3D 7 to modern OpenGL translation, and native Indeo 5 AVI cutscene playback via FFmpeg.
 
 ### [IGI-RE (Decompilation)](https://github.com/slickdaddyy/IGI-RE)
 * **Repository:** [https://github.com/slickdaddyy/IGI-RE](https://github.com/slickdaddyy/IGI-RE)
+* **Author:** [@slickdaddyy](https://github.com/slickdaddyy)
 * **Approach:** Reverse engineering and decompilation project targeting the original Project I.G.I. executable.
 * **Features:** Function recovery, file format documentation, and disassembled game logic analysis.
 
 ### [Project Open IGI (C++20 Reconstruction)](https://github.com/heaven-hm/project-open-igi)
 * **Repository:** [https://github.com/heaven-hm/project-open-igi](https://github.com/heaven-hm/project-open-igi)
+* **Author:** [@heaven-hm](https://github.com/heaven-hm)
 * **Approach:** Modern C++20 engine reconstruction and source port.
 * **Features:** Clean-room architecture, modern toolchain integration, cross-platform gameplay reproduction, and developer diagnostics.
 
@@ -52,6 +55,7 @@ Directly playable browser-based implementations and web ports:
 
 ### [OpenIGI Web (Enhanced Version)](https://openigi.com/)
 * **Website:** [https://openigi.com/](https://openigi.com/)
+* **Author:** [@ShahriyarB](https://github.com/ShahriyarB)
 * **Description:** Enhanced browser-based version powered by the OpenIGI engine with modern visual improvements and web rendering.
 
 ### [Project I.G.I. Web (Vanilla Version)](https://project-igi.pages.dev/)
