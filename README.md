@@ -1,6 +1,6 @@
 # Project I.G.I. Reverse Engineering & Source Ports
 
-A curated directory of open-source reverse engineering, decompilation, static recompilation, engine reconstruction, console ports, and browser playable projects for the **Project I.G.I.** series developed by Innerloop Studios.
+A curated directory of open-source reverse engineering, decompilation, static recompilation, engine reconstruction, macOS/Linux ports, console ports, and browser playable projects for the **Project I.G.I.** series developed by Innerloop Studios.
 
 > **Note:** This repository hosts no game code, binaries, or copyrighted assets. All listed projects require a legally owned retail installation of the original games.
 
@@ -69,12 +69,36 @@ A curated directory of open-source reverse engineering, decompilation, static re
 
 ---
 
+## 🍏 macOS & Linux Ports
+
+Standalone desktop ports and native distributions for macOS and Linux:
+
+### [Project I.G.I. macOS Standalone App](https://github.com/rishabhgupta3107/igi-browser)
+* **Repository:** [https://github.com/rishabhgupta3107/igi-browser](https://github.com/rishabhgupta3107/igi-browser)
+* **Author:** [@rishabhgupta3107](https://github.com/rishabhgupta3107)
+* **macOS Download (Apple Silicon M1+):** [`Project-IGI-Mac-Apple-Chip.zip`](https://github.com/rishabhgupta3107/igi-browser/releases/latest/download/Project-IGI-Mac-Apple-Chip.zip)
+* **macOS Download (Intel):** [`Project-IGI-Mac-Intel.zip`](https://github.com/rishabhgupta3107/igi-browser/releases/latest/download/Project-IGI-Mac-Intel.zip)
+* **Description:** Native macOS app bundle (`Project IGI.app`) powered by WebGPU, featuring widescreen, sharper graphics, gamepad controller support, and dive mechanics without requiring an emulator.
+
+### [OpenIGI Desktop (macOS & Linux Client)](https://openigi.com/)
+* **Website:** [https://openigi.com/](https://openigi.com/)
+* **Repository:** [https://github.com/OpenIGI/OpenIGI/](https://github.com/OpenIGI/OpenIGI/)
+* **Author:** [@ShahriyarB](https://github.com/ShahriyarB)
+* **macOS & Linux Terminal Installation:**
+  ```bash
+  curl -fsSL https://openigi.com/install.sh | bash
+  ```
+* **Description:** Clean-room engine reimplementation running natively on macOS and Linux desktop via an automated launcher and updater.
+
+---
+
 ## 🌐 Multi-Game / Unified Engines (IGI 1 & IGI 2)
 
 ### [OpenIGI (Clean-Room Engine Reimplementation)](https://github.com/OpenIGI/OpenIGI/)
 * **Repository:** [https://github.com/OpenIGI/OpenIGI/](https://github.com/OpenIGI/OpenIGI/)
 * **Author:** [@ShahriyarB](https://github.com/ShahriyarB)
 * **Approach:** Clean-room reimplementation of Innerloop Studios' engine in C# on .NET 10.
+* **Platforms:** Windows, macOS, and Linux desktop (`curl -fsSL https://openigi.com/install.sh | bash` via [openigi.com](https://openigi.com/)), and Web.
 * **Description:** An open-source engine for *Project I.G.I.: I'm Going In* (2000) and *I.G.I. 2: Covert Strike* (2003). Runs the original games from your own retail installation. The original missions, scripts, and AI play as they did in 2000, with a modern renderer, launcher, and modding platform built around them.
 
 ---
@@ -82,6 +106,13 @@ A curated directory of open-source reverse engineering, decompilation, static re
 ## 🌍 Browser Playable Ports & Web Implementations
 
 Directly playable browser-based implementations and web ports:
+
+### [Project I.G.I. Browser Port (Web & macOS)](https://rishabhgupta3107.github.io/igi-browser/)
+* **Website:** [https://rishabhgupta3107.github.io/igi-browser/](https://rishabhgupta3107.github.io/igi-browser/)
+* **Repository:** [https://github.com/rishabhgupta3107/igi-browser](https://github.com/rishabhgupta3107/igi-browser)
+* **Author:** [@rishabhgupta3107](https://github.com/rishabhgupta3107)
+* **macOS Standalone Build:** [`Project-IGI-Mac-Apple-Chip.zip`](https://github.com/rishabhgupta3107/igi-browser/releases/latest/download/Project-IGI-Mac-Apple-Chip.zip)
+* **Description:** Playable in-browser port running via WebGPU with widescreen support, sharper graphics, gamepad controller support, and standalone desktop builds for macOS and Windows.
 
 ### [IGI 2: Covert Strike Web Port](https://iglweb-olive.vercel.app/)
 * **Website:** [https://iglweb-olive.vercel.app/](https://iglweb-olive.vercel.app/)
