@@ -27,6 +27,17 @@ A curated directory of open-source reverse engineering, decompilation, static re
 * **Approach:** Modern C++20 engine reconstruction and source port.
 * **Features:** Clean-room architecture, modern toolchain integration, cross-platform gameplay reproduction, and developer diagnostics.
 
+### [re-igi / reimagine-igi (Web Browser Reimplementation)](https://github.com/Haseebraza12/reimagine-igi)
+* **Repository:** [https://github.com/Haseebraza12/reimagine-igi](https://github.com/Haseebraza12/reimagine-igi)
+* **Author:** [@Haseebraza12](https://github.com/Haseebraza12)
+* **Approach:** Browser-native reimplementation in TypeScript, Vite, and Three.js reading original retail files directly at runtime without pre-converting assets.
+* **Platforms:** Web Browsers (Web only).
+* **Features:**
+  - Loads and plays all 14 missions of the full game decoded at runtime from legally owned retail files.
+  - Faithful octree terrain with LOD transitions, vertex geomorph, ground relief, and lightmaps.
+  - Complete 49-state player movement graph, 3-ray character collision sweep, and original 4:3 camera optics (90° × 73.74°).
+  - Recovered vehicle physics (moving trains, helicopters), patrol AI, and dynamic sound mixing.
+
 ---
 
 ## 🎯 I.G.I.-2: Covert Strike (IGI 2 - 2003)
@@ -106,6 +117,13 @@ Standalone desktop ports and native distributions for macOS and Linux:
 ## 🌍 Browser Playable Ports & Web Implementations
 
 Directly playable browser-based implementations and web ports:
+
+### [re-igi / reimagine-igi (Web Only Reimplementation)](https://github.com/Haseebraza12/reimagine-igi)
+* **Repository:** [https://github.com/Haseebraza12/reimagine-igi](https://github.com/Haseebraza12/reimagine-igi)
+* **Author:** [@Haseebraza12](https://github.com/Haseebraza12)
+* **Target Game:** *Project I.G.I.: I'm Going In* (2000)
+* **Platform:** Web Browsers (Web only)
+* **Description:** Browser-native vertical slice and full reimplementation built on TypeScript, Vite, and Three.js. Loads and plays all 14 original missions by reading the player's retail files directly at runtime in the browser.
 
 ### [Project I.G.I. Browser Port (Web & macOS)](https://rishabhgupta3107.github.io/igi-browser/)
 * **Website:** [https://rishabhgupta3107.github.io/igi-browser/](https://rishabhgupta3107.github.io/igi-browser/)
