@@ -1,6 +1,6 @@
-# Project I.G.I. Reverse Engineering & Source Ports
+# Project I.G.I. Awesome RE & Source Ports
 
-A curated directory of open-source reverse engineering, decompilation, static recompilation, engine reconstruction, macOS/Linux ports, console ports, and browser playable projects for the **Project I.G.I.** series developed by Innerloop Studios.
+A curated directory of awesome open-source reverse engineering (RE), decompilation, static recompilation, engine reconstruction, macOS/Linux ports, console ports, and browser playable projects for the **Project I.G.I.** series developed by Innerloop Studios.
 
 > **Note:** This repository hosts no game code, binaries, or copyrighted assets. All listed projects require a legally owned retail installation of the original games.
 
@@ -166,7 +166,7 @@ Directly playable browser-based implementations and web ports:
 
 ## 📌 Status & Future Updates
 
-More reverse engineering projects, tools, file format specifications, and research resources will be updated in the future.
+More awesome reverse engineering projects, tools, file format specifications, and research resources will be updated in the future.
 
 ---
 
