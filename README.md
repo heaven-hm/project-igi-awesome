@@ -1,6 +1,6 @@
 # Project I.G.I. Reverse Engineering & Source Ports
 
-A curated directory of open-source reverse engineering, decompilation, static recompilation, engine reconstruction, console ports, and browser playable projects for the **Project I.G.I.** series developed by Innerloop Studios.
+A curated directory of open-source reverse engineering, decompilation, static recompilation, engine reconstruction, console/mobile ports, and browser playable projects for the **Project I.G.I.** series developed by Innerloop Studios.
 
 > **Note:** This repository hosts no game code, binaries, or copyrighted assets. All listed projects require a legally owned retail installation of the original games.
 
@@ -31,6 +31,18 @@ A curated directory of open-source reverse engineering, decompilation, static re
 
 ## 🎯 I.G.I.-2: Covert Strike (IGI 2 - 2003)
 
+### [IGI 2: Covert Strike Web Port (Static Recompilation to WebAssembly & Mac)](https://github.com/swampodsarkar321/IGI-WEB)
+* **Repository:** [https://github.com/swampodsarkar321/IGI-WEB](https://github.com/swampodsarkar321/IGI-WEB)
+* **Live Demo / Web Port:** [https://iglweb-olive.vercel.app/](https://iglweb-olive.vercel.app/)
+* **Author:** [@swampodsarkar321](https://github.com/swampodsarkar321)
+* **Approach:** Static binary recompilation of the retail x86 executable into portable C via Ghidra and custom tooling (31,547 recovered functions, ~1.3 million instructions), compiled to WebAssembly via Emscripten and native macOS via Clang.
+* **Platforms:** Web Browsers (WebAssembly & WebGPU) and macOS (native Apple Silicon).
+* **Features:**
+  - Direct3D 8 pipeline translated to WebGPU and WGSL shaders.
+  - DirectSound mapped to Web Audio; DirectInput mapped to Web Gamepad API, mouse, and keyboard.
+  - Online 1v1 multiplayer with deterministic lockstep netplay.
+  - Full memory layout preservation matching original pointer and C++ vtable structures.
+
 ### [IGI 2 Decomp (Decompilation)](https://github.com/ShahriyarB/igi2-decomp)
 * **Repository:** [https://github.com/ShahriyarB/igi2-decomp](https://github.com/ShahriyarB/igi2-decomp)
 * **Author:** [@ShahriyarB](https://github.com/ShahriyarB)
@@ -39,7 +51,7 @@ A curated directory of open-source reverse engineering, decompilation, static re
 
 ---
 
-## 🕹️ Console & Handheld Ports
+## 🕹️ Console, Handheld & Mobile Ports
 
 ### [IGI Vita (Native PlayStation Vita Port)](https://github.com/HenryKun55/igi-vita)
 * **Repository:** [https://github.com/HenryKun55/igi-vita](https://github.com/HenryKun55/igi-vita)
@@ -55,6 +67,20 @@ A curated directory of open-source reverse engineering, decompilation, static re
   - 16:9 widescreen or original 4:3 aspect ratio options.
   - Built-in updater and performance overlay support.
 
+### [Project I.G.I. CPU Port & Android Universal APK](https://github.com/beraslarang544-sketch/BerasXcorps/tree/fb9946e443405fcd5a6d1cd1fefd16ff47e39bd1/igi-cpu-port)
+* **Repository Tree:** [BerasXcorps/igi-cpu-port](https://github.com/beraslarang544-sketch/BerasXcorps/tree/fb9946e443405fcd5a6d1cd1fefd16ff47e39bd1/igi-cpu-port)
+* **Author:** [@beraslarang544-sketch](https://github.com/beraslarang544-sketch) / BerasXcorps
+* **Target Game:** *Project I.G.I.: I'm Going In* (2000)
+* **Platform:** Android 7.0 – Android 15+ (`arm64-v8a` and `x86_64`)
+* **Ready-to-Install APK:** [`ProjectIGI-CPU-Port-v0.6.0-universal.apk`](https://github.com/beraslarang544-sketch/BerasXcorps/blob/fb9946e443405fcd5a6d1cd1fefd16ff47e39bd1/igi-cpu-port/releases/ProjectIGI-CPU-Port-v0.6.0-universal.apk)
+* **Approach:** Static recompilation of retail `IGI.exe` (`x86` PE32 → `C11`, 5,712 recovered functions) paired with a pure CPU-based Direct3D 7 software rasterizer with zero GPU/OpenGL/Vulkan hardware acceleration dependency (`android:hardwareAccelerated="false"`).
+* **Features:**
+  - Universal dual-ABI Android native libraries (`libigi_cpu_port.so` for `arm64-v8a` and `x86_64`) built against Bionic NDK with 16 KB page alignment for Android 15+.
+  - Pure CPU Direct3D 7 software 3D rasterizer with perspective-correct texture mapping, 32-bit float Z-buffer, Gouraud vertex shading, alpha blending, and linear distance fog.
+  - Mission 01 ("Trainyard") compound entities, terrain elevation (`terrain.hmp` 128×128), and textures directly embedded for zero external storage permission requirement.
+  - Interactive touch HUD with virtual movement D-Pad (left) and drag-to-look camera rotation (right).
+  - Dual signature scheme passing Android v1 (JAR PKCS#7) and v2 (`APK Sig Block 42`) verification.
+
 ---
 
 ## 🌐 Multi-Game / Unified Engines (IGI 1 & IGI 2)
@@ -67,9 +93,15 @@ A curated directory of open-source reverse engineering, decompilation, static re
 
 ---
 
-## 🌍 Project I.G.I. in the Browser
+## 🌍 Browser Playable Ports & Web Implementations
 
 Directly playable browser-based implementations and web ports:
+
+### [IGI 2: Covert Strike Web Port](https://iglweb-olive.vercel.app/)
+* **Website:** [https://iglweb-olive.vercel.app/](https://iglweb-olive.vercel.app/)
+* **Repository:** [https://github.com/swampodsarkar321/IGI-WEB](https://github.com/swampodsarkar321/IGI-WEB)
+* **Author:** [@swampodsarkar321](https://github.com/swampodsarkar321)
+* **Description:** Playable in-browser port of *I.G.I.-2: Covert Strike* running via WebAssembly, WebGPU, and Web Audio with 1v1 online multiplayer and game controller support.
 
 ### [OpenIGI Web (Enhanced Version)](https://openigi.com/)
 * **Website:** [https://openigi.com/](https://openigi.com/)
