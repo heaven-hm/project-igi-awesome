@@ -120,6 +120,12 @@ Standalone desktop ports and native distributions for macOS and Linux:
 
 Directly playable browser-based implementations and web ports:
 
+### [PlayIGI (Mobile Browser)](https://playigi.com/play)
+* **Website / Play:** [https://playigi.com/play](https://playigi.com/play)
+* **Category:** Mobile-only browser-playable entry
+* **Platform:** Mobile web browsers (iOS Safari and Android browsers; compatibility should be verified on the target device)
+* **Description:** Opens the hosted PlayIGI experience directly in a browser. Listed as a mobile-focused option; this repository does not host the game or its assets, and mobile-device compatibility has not been independently tested.
+
 ### [re-igi / reimagine-igi (Web Only Reimplementation)](https://github.com/Haseebraza12/reimagine-igi)
 * **Repository:** [https://github.com/Haseebraza12/reimagine-igi](https://github.com/Haseebraza12/reimagine-igi)
 * **Author:** [@Haseebraza12](https://github.com/Haseebraza12)
