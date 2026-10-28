@@ -18,15 +18,25 @@ A curated directory of awesome reverse engineering (RE), static recompilations, 
 
 ---
 
-> ## 🌟 Featured: PlayIGI (By Neonix Team)
+> ## 🌟 Featured Projects
 >
-> ### **[PlayIGI](https://playigi.com/)** • [Play In Browser](https://playigi.com/play)
+> ### 🎮 **[PlayIGI](https://playigi.com/)** (By Neonix Team) • [Play In Browser](https://playigi.com/play)
 >
 > **PlayIGI** is a massive, full-featured **Project I.G.I. 1 Reimplementation** by the **Neonix Team** featuring:
 > - 🚀 **High Uncapped FPS & Smooth Gameplay** — Modern high-tick engine loop with zero stutter.
 > - 💾 **In-Game Save System** — Save and resume your mission progress anytime.
 > - 🎨 **Enhanced HD Textures** — Crisp, high-resolution remastering of classic terrain and weapon textures.
 > - 📱 **Cross-Platform Availability** — Fully playable on **Windows PC**, desktop **Web Browsers**, and **Mobile Web Browsers (iOS Safari & Android)** with responsive touch controls!
+>
+> ---
+>
+> ### ⚡ **[OpenIGI](https://openigi.com/)** (Remastered Version by ShahriyarB) • [GitHub Repository](https://github.com/OpenIGI/OpenIGI)
+>
+> **OpenIGI** is a state-of-the-art **Multi-Game Remastered Engine** built in C# on .NET 10 featuring:
+> - 🎯 **Dual-Game Support** — Re-engineers and plays both *Project I.G.I.: I'm Going In* (2000) and *I.G.I.-2: Covert Strike* (2003).
+> - 🌟 **Modern Remastered Visuals** — Modernized graphics pipeline with true widescreen, ultra-high resolutions, and dynamic lighting.
+> - 🖥️ **Native Desktop & Web Delivery** — Native client for Windows, macOS, and Linux desktop (`curl -fsSL https://openigi.com/install.sh | bash`) plus in-browser Web play.
+> - 🛠️ **Integrated Modding Platform** — Built-in custom launcher, automatic updaters, and modular modding architecture.
 
 ---
 
