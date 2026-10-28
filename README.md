@@ -1,6 +1,6 @@
 # Project I.G.I. Reverse Engineering & Source Ports
 
-A curated directory of open-source reverse engineering, decompilation, static recompilation, engine reconstruction, console/mobile ports, and browser playable projects for the **Project I.G.I.** series developed by Innerloop Studios.
+A curated directory of open-source reverse engineering, decompilation, static recompilation, engine reconstruction, console ports, and browser playable projects for the **Project I.G.I.** series developed by Innerloop Studios.
 
 > **Note:** This repository hosts no game code, binaries, or copyrighted assets. All listed projects require a legally owned retail installation of the original games.
 
@@ -51,7 +51,7 @@ A curated directory of open-source reverse engineering, decompilation, static re
 
 ---
 
-## 🕹️ Console, Handheld & Mobile Ports
+## 🕹️ Console & Handheld Ports
 
 ### [IGI Vita (Native PlayStation Vita Port)](https://github.com/HenryKun55/igi-vita)
 * **Repository:** [https://github.com/HenryKun55/igi-vita](https://github.com/HenryKun55/igi-vita)
@@ -66,20 +66,6 @@ A curated directory of open-source reverse engineering, decompilation, static re
   - Full Vita controls: dual analog sticks, front touchscreen aiming, rear touchpad scope zoom, and customizable button mappings.
   - 16:9 widescreen or original 4:3 aspect ratio options.
   - Built-in updater and performance overlay support.
-
-### [Project I.G.I. CPU Port & Android Universal APK](https://github.com/beraslarang544-sketch/BerasXcorps/tree/fb9946e443405fcd5a6d1cd1fefd16ff47e39bd1/igi-cpu-port)
-* **Repository Tree:** [BerasXcorps/igi-cpu-port](https://github.com/beraslarang544-sketch/BerasXcorps/tree/fb9946e443405fcd5a6d1cd1fefd16ff47e39bd1/igi-cpu-port)
-* **Author:** [@beraslarang544-sketch](https://github.com/beraslarang544-sketch) / BerasXcorps
-* **Target Game:** *Project I.G.I.: I'm Going In* (2000)
-* **Platform:** Android 7.0 – Android 15+ (`arm64-v8a` and `x86_64`)
-* **Ready-to-Install APK:** [`ProjectIGI-CPU-Port-v0.6.0-universal.apk`](https://github.com/beraslarang544-sketch/BerasXcorps/blob/fb9946e443405fcd5a6d1cd1fefd16ff47e39bd1/igi-cpu-port/releases/ProjectIGI-CPU-Port-v0.6.0-universal.apk)
-* **Approach:** Static recompilation of retail `IGI.exe` (`x86` PE32 → `C11`, 5,712 recovered functions) paired with a pure CPU-based Direct3D 7 software rasterizer with zero GPU/OpenGL/Vulkan hardware acceleration dependency (`android:hardwareAccelerated="false"`).
-* **Features:**
-  - Universal dual-ABI Android native libraries (`libigi_cpu_port.so` for `arm64-v8a` and `x86_64`) built against Bionic NDK with 16 KB page alignment for Android 15+.
-  - Pure CPU Direct3D 7 software 3D rasterizer with perspective-correct texture mapping, 32-bit float Z-buffer, Gouraud vertex shading, alpha blending, and linear distance fog.
-  - Mission 01 ("Trainyard") compound entities, terrain elevation (`terrain.hmp` 128×128), and textures directly embedded for zero external storage permission requirement.
-  - Interactive touch HUD with virtual movement D-Pad (left) and drag-to-look camera rotation (right).
-  - Dual signature scheme passing Android v1 (JAR PKCS#7) and v2 (`APK Sig Block 42`) verification.
 
 ---
 
