@@ -116,6 +116,8 @@ Standalone desktop ports and native distributions for macOS and Linux:
 
 ## 🌍 Browser Playable Ports & Web Implementations
 
+> 📊 **In-Depth Comparison:** See [IGI_1_WEB_PORTS_COMPARISON.md](IGI_1_WEB_PORTS_COMPARISON.md) for a technical breakdown, architecture analysis, and comparison ratings across all web ports.
+
 Directly playable browser-based implementations and web ports:
 
 ### [re-igi / reimagine-igi (Web Only Reimplementation)](https://github.com/Haseebraza12/reimagine-igi)
